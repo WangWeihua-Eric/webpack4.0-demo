@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "private": true,
-  "scripts": {},
+  "scripts": {
+    "bundle":"webpack"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/WangWeihua-Eric/webpack4.0-demo.git"
