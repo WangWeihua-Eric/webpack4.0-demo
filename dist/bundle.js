@@ -86,27 +86,14 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./src/content.js":
-/*!************************!*\
-  !*** ./src/content.js ***!
-  \************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ "./src/Photo_1108_5a.jpg":
+/*!*******************************!*\
+  !*** ./src/Photo_1108_5a.jpg ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\nfunction Content() {\n    let dom = document.getElementById('root')\n    let child = document.createElement('div')\n    child.innerText = 'content'\n    dom.append(child)\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Content);\n\n//# sourceURL=webpack:///./src/content.js?");
-
-/***/ }),
-
-/***/ "./src/header.js":
-/*!***********************!*\
-  !*** ./src/header.js ***!
-  \***********************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\nfunction Header() {\n    let dom = document.getElementById('root');\n    let child = document.createElement('div');\n    child.innerText = 'header';\n    dom.append(child);\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Header);\n\n//# sourceURL=webpack:///./src/header.js?");
+eval("module.exports = __webpack_require__.p + \"images/Photo_1108_5a_8b964cc32bc39106b882c65f1b06d134.jpg\";\n\n//# sourceURL=webpack:///./src/Photo_1108_5a.jpg?");
 
 /***/ }),
 
@@ -118,19 +105,7 @@ eval("__webpack_require__.r(__webpack_exports__);\nfunction Header() {\n    let 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _header__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./header */ \"./src/header.js\");\n/* harmony import */ var _sidebar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./sidebar */ \"./src/sidebar.js\");\n/* harmony import */ var _content__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./content */ \"./src/content.js\");\n\n\n\n\nnew _header__WEBPACK_IMPORTED_MODULE_0__[\"default\"]();\nnew _sidebar__WEBPACK_IMPORTED_MODULE_1__[\"default\"]();\nnew _content__WEBPACK_IMPORTED_MODULE_2__[\"default\"]();\n\n//# sourceURL=webpack:///./src/index.js?");
-
-/***/ }),
-
-/***/ "./src/sidebar.js":
-/*!************************!*\
-  !*** ./src/sidebar.js ***!
-  \************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\nfunction Sidebar() {\n    let dom = document.getElementById('root')\n    let child = document.createElement('div')\n    child.innerText = 'sidebar'\n    dom.append(child)\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Sidebar);\n\n//# sourceURL=webpack:///./src/sidebar.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Photo_1108_5a_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Photo_1108_5a.jpg */ \"./src/Photo_1108_5a.jpg\");\n/* harmony import */ var _Photo_1108_5a_jpg__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_Photo_1108_5a_jpg__WEBPACK_IMPORTED_MODULE_0__);\n// import Header from './header';\n// import Sidebar from './sidebar';\n// import Content from './content';\n\n\n// new Header();\n// new Sidebar();\n// new Content();\n\nlet root = document.getElementById('root')\nlet img = new Image()\nimg.src = _Photo_1108_5a_jpg__WEBPACK_IMPORTED_MODULE_0___default.a\nroot.append(img)\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ })
 
